@@ -40,7 +40,7 @@ export default function ContactUs() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 mt-6 gap-5 md:gap-20">
             <div className="flex flex-col justify-center items-start ">
-              <div className="flex items-center md:py-5 lg:py-10">
+              <div className="flex items-center py-5 lg:py-10">
                 <div className="ico w-1/12">
                   <Image
                     src={"/Email.png"}
@@ -54,7 +54,7 @@ export default function ContactUs() {
                   <p className="text-xl mt-2">contacto@myfastvisa.com</p>
                 </div>
               </div>
-              <div className="flex items-center md:py-5 lg:py-10 border-y w-full">
+              <div className="flex items-center py-5 lg:py-10 border-y w-full">
                 <div className="ico w-1/12">
                   <Image
                     src={"/Call.png"}
@@ -73,7 +73,7 @@ export default function ContactUs() {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center md:py-5 lg:py-10">
+              <div className="flex items-center py-5 lg:py-10">
                 <div className="ico w-1/12">
                   <Image
                     src={"/Location.png"}
