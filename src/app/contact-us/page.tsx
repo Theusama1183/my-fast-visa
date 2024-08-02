@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import EmailForm from "../components/EmailForm";
 
 export default function ContactUs() {
   return (
@@ -17,49 +18,7 @@ export default function ContactUs() {
           <div className="grid grid-cols-1 md:grid-cols-2 mt-6 gap-5 md:gap-20 mt-10">
             <div className="flex flex-col justify-center items-start">
               <div className="form w-full ">
-                <form>
-                  <div className="input-group">
-                    <div className="label mt-3">
-                      <label htmlFor="name">Nombre</label>
-                    </div>
-                    <input
-                      type="text"
-                      title="name"
-                      name="name"
-                      className="form-input border px-1 py-2 mt-2 md:w-96 w-full rounded-md"
-                    />
-                  </div>
-                  <div className="input-group">
-                    <div className="label mt-3">
-                      <label htmlFor="whatsapp_or_email">
-                        WhatsApp or Email
-                      </label>
-                    </div>
-                    <input
-                      type="text"
-                      title="name"
-                      name="whatsapp_or_email"
-                      className="form-input border px-1 py-2 mt-2 md:w-96 w-full rounded-md"
-                    />
-                  </div>
-                  <div className="input-group">
-                    <div className="label mt-3">
-                      <label htmlFor="Mensaje">Mensaje</label>
-                    </div>
-                    <textarea
-                      name="Mensaje"
-                      id="Mensaje"
-                      className="form-input border px-1 py-2 mt-2 w-full rounded-md"
-                      cols={30}
-                      rows={5}
-                    ></textarea>
-                  </div>
-                  <div className="btn-container text-right">
-                    <button className="py-2 px-16 bg-black text-white rounded-md">
-                      Enviar
-                    </button>
-                  </div>
-                </form>
+                <EmailForm />
               </div>
             </div>
             <div className="map">
