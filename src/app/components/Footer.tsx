@@ -8,12 +8,14 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:flex items-center justify-between">
           <div className="logo">
-            <Image
-              src={"/main-logo.png"}
-              alt=""
-              width={200}
-              height={70}
-            ></Image>
+            <Link href="/">
+              <Image
+                src={"/main-logo.png"}
+                alt=""
+                width={200}
+                height={70}
+              ></Image>
+            </Link>
           </div>
           <div className="menus">
             <ul className="text-center text-xl">
