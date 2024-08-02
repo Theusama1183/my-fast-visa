@@ -32,7 +32,7 @@ export default function ContactUs() {
                   <div className="input-group">
                     <div className="label mt-3">
                       <label htmlFor="whatsapp_or_email">
-                        WhatsApp o Email
+                        WhatsApp or Email
                       </label>
                     </div>
                     <input
@@ -108,7 +108,7 @@ export default function ContactUs() {
                 </div>
                 <div className="text-white ml-5 ">
                   <h4 className="text-2xl font-bold">WhatsApp</h4>
-                  <p className="text-xl mt-2">+54 2214477897</p>
+                  <p className="text-xl mt-2">+54 9 221 683-2241</p>
                 </div>
               </div>
               <div className="flex items-center py-5">

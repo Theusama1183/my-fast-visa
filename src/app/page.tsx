@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section className="md:h-screen hero-section py-10 md:py-24 flex flex-col justify-center md:px-0 px-4">
+      <section className="hero-section py-10 md:py-24 flex flex-col justify-center ">
         <div className="container mx-auto">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 md:px-0 px-4">
             <h1 className="text-3xl md:text-6xl font-bold md:leading-tight">
               Adelantá el turno de tu visa a los proximos{" "}
               <span className="bg-primary px-3 py-1 text-white rounded-lg">
@@ -23,9 +23,17 @@ export default function Home() {
             <div className="space px-5">
               <br />
             </div>
+            <div className="md:block hidden md:items-center">
+              <Link
+                href="/reschedule-now"
+                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-5 "
+              >
+                Reschedule now
+              </Link>
+            </div>
             <div className="md:hidden md:items-center">
               <Link
-                href="/adelantá-ya"
+                href="https://wa.me/5492216832241?text=Hola!"
                 className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-5 "
               >
                 Adelantá ya
@@ -36,9 +44,16 @@ export default function Home() {
         <Image
           src={"/us-flag.png"}
           alt="flag"
-          className="flag-img md:absolute"
-          width={800}
-          height={400}
+          className="flag-img md:absolute hidden md:block"
+          width={1000}
+          height={600}
+        ></Image>
+        <Image
+          src={"/us-flag-2.png"}
+          alt="flag"
+          className="flag-img md:absolute md:hidden"
+          width={1000}
+          height={600}
         ></Image>
       </section>
       <section className="py-10 md:py-24 md:px-0 px-4 md:mt-24">
@@ -109,7 +124,7 @@ export default function Home() {
             </ul>
             <div className="space py-8"></div>
             <Link
-              href={"#"}
+              href={"https://wa.me/5492216832241?text=Hola!"}
               className="mt-9 px-10 py-3 bg-primary text-white rounded-xl border hover:bg-black hover:text-white absolute -bottom-5 left-50% transform translate-x-1/2"
             >
               Adelantá ya
@@ -130,6 +145,8 @@ export default function Home() {
                 <p className="texl-lg mt-10">
                   Necesitamos conocer tu urgencia y <br /> acceso a la cuenta
                   para adelantar el turno.
+                  <br />
+                  <br />
                 </p>
                 <div className="space py-5"></div>
                 <div className="-mb-24 relative z-10 ">
@@ -147,8 +164,9 @@ export default function Home() {
                   Conseguimos el <br /> adelanto
                 </h3>
                 <p className="texl-lg mt-10">
-                  Generalmente, en 2 a 3 días conseguimos un turno para el CAS y
-                  la Embajada dentro de los próximos 10 días.
+                  Generalmente, en 2 a 3 días conseguimos un turno <br /> para
+                  el CAS y la Embajada dentro <br />
+                  de los próximos 10 días.
                 </p>
                 <div className="space py-5"></div>
                 <div className="-mb-24 relative z-10 ">
@@ -167,6 +185,8 @@ export default function Home() {
                 <p className="texl-lg mt-10">
                   Apelamos a la buena fe de nuestros clientes para que efectúen
                   el pago una vez obtenido el servicio.
+                  <br />
+                  <br />
                 </p>
                 <div className="space py-5"></div>
                 <div className="-mb-24 relative z-10 ">
@@ -292,7 +312,7 @@ export default function Home() {
               solo 115 USD? Si realmente valorás tu tiempo, este es un negoción.
             </p>
             <Link
-              href="/adelantá-ya"
+              href="https://wa.me/5492216832241?text=Hola!"
               className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white"
             >
               Adelantá ya
@@ -302,7 +322,10 @@ export default function Home() {
       </section>
       <section className="bg-sdsi343i32 py-24 md:px-0 px-4">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+          <h2 className="text-5xl font-bold text-center mt-10 text-white">
+            Testimonios
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mt-24">
             <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 ">
               <div className="-mt-28 relative z-10 ">
                 <Image
@@ -425,7 +448,7 @@ export default function Home() {
                 ahora.
               </p>
               <Link
-                href="/adelantá-ya"
+                href="https://wa.me/5492216832241?text=Hola!"
                 className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-6"
               >
                 Adelantá ya
@@ -474,7 +497,7 @@ export default function Home() {
                 </div>
                 <div className="text-white ml-5 ">
                   <h4 className="text-2xl font-bold">WhatsApp</h4>
-                  <p className="text-xl mt-2">+54 2214477897</p>
+                  <p className="text-xl mt-2">+54 9 221 683-2241</p>
                 </div>
               </div>
               <div className="flex items-center py-5">

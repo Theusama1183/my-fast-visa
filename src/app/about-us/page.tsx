@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Timeline from "../components/Timeline";
+
 export default function AboutUs() {
   return (
     <>
@@ -18,7 +20,7 @@ export default function AboutUs() {
 
         <div className="bg-Grou454f99 py-10 md:py-24 mt-10 md:px-0 px-4">
           <div className="container mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2  gap-y-10 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
               <div className="flex flex-col justify-center items-start">
                 <div className="md:flex">
                   <div className="text-block text-center md:w-2/4 px-12 flex flex-col justify-center text-white">
@@ -38,7 +40,7 @@ export default function AboutUs() {
                       alt=""
                       width={340}
                       height={442}
-                      className=""
+                      className=" w-full"
                     ></Image>
                   </div>
                 </div>
@@ -51,7 +53,7 @@ export default function AboutUs() {
                       alt=""
                       width={340}
                       height={442}
-                      className=""
+                      className=" w-full"
                     ></Image>
                   </div>
                   <div className="text-block text-center md:w-2/4 px-12 flex flex-col justify-center text-white">
@@ -86,7 +88,7 @@ export default function AboutUs() {
                       alt=""
                       width={340}
                       height={442}
-                      className=""
+                      className=" w-full"
                     ></Image>
                   </div>
                 </div>
@@ -99,7 +101,7 @@ export default function AboutUs() {
                       alt=""
                       width={340}
                       height={442}
-                      className=""
+                      className=" w-full"
                     ></Image>
                   </div>
                   <div className="text-block text-center md:w-2/4 px-12 flex flex-col justify-center text-white">
@@ -121,6 +123,8 @@ export default function AboutUs() {
       <section className="py-24">
         <div className="container mx-auto px-4 md:px-0">
           <h2 className="text-5xl font-bold text-center">Nuestra Historia</h2>
+
+          <Timeline />
         </div>
       </section>
       <section className="bg-sdsi343i32 py-24 md:px-0 px-4">
@@ -251,7 +255,7 @@ export default function AboutUs() {
                 ahora.
               </p>
               <Link
-                href="/adelantá-ya"
+                href="https://wa.me/5492216832241?text=Hola!"
                 className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-6"
               >
                 Adelantá ya

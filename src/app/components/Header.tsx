@@ -83,7 +83,7 @@ const Header = () => {
           </div>
           <div className="hidden md:flex md:items-center">
             <Link
-              href="/adelantá-ya"
+              href="https://wa.me/5492216832241?text=Hola!"
               className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white"
             >
               Adelantá ya
@@ -115,15 +115,9 @@ const Header = () => {
           >
             Contactanos
           </Link>
-          <Link
-            href="/adelantá-ya"
-            className="block px-3 py-2 rounded-md text-base font-medium text-black hover:text-gray-700 text-xl hover:bg-gray-200"
-          >
-            Adelantá ya
-          </Link>
 
           <Link
-            href="/adelantá-ya"
+            href="https://wa.me/5492216832241?text=Hola!"
             className="mt-2 px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white w-full block text-center"
           >
             Adelantá ya
