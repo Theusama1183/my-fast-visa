@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3340ec;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.hero-section {
+  background-image: url("/hero.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.flag-img {
+  top: 0;
+  right: 0;
+}
+.web-list {
+  list-style: none;
+  padding-left: 0;
+}
+.web-list li {
+  display: flex;
+  margin-top: 20px;
+}
+.web-list li:before {
+  content: url("/web-list-icon.png");
+  margin-right: 10px;
+}
+.bg-simples-pasos {
+  background-image: url("/simples-pasos-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 380px) {
+  .pricing-plan {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .positiond-wrapper {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .positiond-img {
+    width: 3000px;
+  }
+}
+
+.bg-sdsi343i32 {
+  background-image: url("/sdsi343i32.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-sdsajdiu34829 {
+  background-image: url("/sdsajdiu34829.png");
+  background-size: 40%;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-sdsajdiu34829 {
+    background-image: url("/sdsajdiu34829.png");
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+}
+.bg-Group6498 {
+  background-image: url("/Group6498.png");
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.bg-Grou454f99 {
+  background-image: url("/Grou454f99.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
