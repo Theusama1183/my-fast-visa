@@ -481,31 +481,29 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 mt-6 gap-5 md:gap-20">
             <div className="flex flex-col justify-center items-start ">
               <div className="flex items-center md:py-5 lg:py-10">
-                <div className="ico">
+                <div className="ico w-1/12">
                   <Image
                     src={"/Email.png"}
                     alt=""
                     width={100}
                     height={90}
-                    className="w-10 lg:w-24"
                   ></Image>
                 </div>
-                <div className="text-white ml-10 ">
+                <div className="text-white  w-11/12">
                   <h4 className="text-2xl font-bold">Email</h4>
                   <p className="text-xl mt-2">contacto@myfastvisa.com</p>
                 </div>
               </div>
               <div className="flex items-center md:py-5 lg:py-10 border-y w-full">
-                <div className="ico">
+                <div className="ico w-1/12">
                   <Image
                     src={"/Call.png"}
                     alt=""
                     width={100}
                     height={90}
-                    className="w-10 lg:w-24"
                   ></Image>
                 </div>
-                <div className="text-white ml-10 ">
+                <div className="text-white  w-11/12">
                   <h4 className="text-2xl font-bold">WhatsApp</h4>
                   <Link
                     href={"https://wa.me/5492216832241?text=Hola!"}
@@ -516,16 +514,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center md:py-5 lg:py-10">
-                <div className="ico">
+                <div className="ico w-1/12">
                   <Image
                     src={"/Location.png"}
                     alt=""
                     width={100}
                     height={90}
-                    className="w-10 lg:w-24"
                   ></Image>
                 </div>
-                <div className="text-white ml-10 ">
+                <div className="text-white w-11/12">
                   <h4 className="text-2xl font-bold">Oficina</h4>
                   <p className="text-xl lg:text-xl mt-2">
                     La Plata (oficina central) y Palermo.
