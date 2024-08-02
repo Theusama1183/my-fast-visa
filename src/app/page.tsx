@@ -7,14 +7,15 @@ export default function Home() {
     <>
       <section className="hero-section py-10 md:py-24 flex flex-col justify-center ">
         <div className="container mx-auto">
-          <div className="md:w-1/2 md:px-0 px-4">
-            <h1 className="text-3xl md:text-6xl font-bold md:leading-tight">
-              Adelantá el turno de tu visa a los proximos{" "}
+          <div className="md:w-2/3 px-4">
+            <h1 className="text-3xl md:text-5xl md:leading-normal lg:text-6xl font-bold lg:leading-snug">
+              Adelantá el turno de tu visa <br className="hidden lg:block" /> a
+              los proximos{" "}
               <span className="bg-primary px-3 py-1 text-white rounded-lg">
                 10 DIAS!
               </span>
             </h1>
-            <p className="text-lg mt-6">
+            <p className="text-lg mt-6 md:w-4/5 ">
               La Embajada de EE.UU. en Argentina recién está dando turnos para
               noviembre. ¿Para qué esperar? Con MyFastVisa, conseguís un turno
               para la próxima semana, online, rápido y garantizado. No pierdas
@@ -44,8 +45,8 @@ export default function Home() {
         <Image
           src={"/us-flag.png"}
           alt="flag"
-          className="flag-img md:absolute hidden md:block"
-          width={1000}
+          className="flag-img md:absolute hidden md:block "
+          width={800}
           height={600}
         ></Image>
         <Image
@@ -56,7 +57,7 @@ export default function Home() {
           height={600}
         ></Image>
       </section>
-      <section className="py-10 md:py-24 md:px-0 px-4 md:mt-24">
+      <section className="py-10 md:py-24 px-4 md:mt-24">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
             <div className="card text-center">
@@ -108,7 +109,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-10 md:py-24 md:px-0 px-4 ">
+      <section className="py-10 md:py-24 px-4 ">
         <div className="container mx-auto">
           <h2 className="text-5xl font-bold text-center">Precios</h2>
           <div className="w-96 mx-auto mt-5 bg-primary py-10 px-5 rounded-xl relative pricing-plan">
@@ -125,20 +126,20 @@ export default function Home() {
             <div className="space py-8"></div>
             <Link
               href={"https://wa.me/5492216832241?text=Hola!"}
-              className="mt-9 px-10 py-3 bg-primary text-white rounded-xl border hover:bg-black hover:text-white absolute -bottom-5 left-50% transform translate-x-1/2"
+              className="mt-9 px-10 py-3 bg-primary text-white rounded-xl border hover:bg-black hover:text-white absolute -bottom-5 left-50% transform translate-x-1/2 md:ml-2 -ml-10"
             >
               Adelantá ya
             </Link>
           </div>
         </div>
       </section>
-      <section className="pt-10 md:pt-24 md:px-0 px-4 ">
+      <section className="pt-10 md:pt-24 px-4">
         <h2 className="text-5xl font-bold text-center">¿Cómo es el trámite?</h2>
-        <p className="text-2xl text-center">En 3 simples pasos:</p>
+        <p className="text-2xl text-center mt-5">En 3 simples pasos:</p>
         <div className="bg-simples-pasos py-20 px-5 rounded-xl mt-6">
-          <div className="container mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-              <div className="card text-center border text-white rounded-xl p-5 relative z-0 ">
+          <div className="md:px-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 lg:gap-20">
+              <div className="card text-center border text-white rounded-xl py-20 px-5 relative z-0 ">
                 <h3 className="text-2xl my-3 font-bold">
                   Nos contactás por <br /> WhatsApp
                 </h3>
@@ -149,17 +150,17 @@ export default function Home() {
                   <br />
                 </p>
                 <div className="space py-5"></div>
-                <div className="-mb-24 relative z-10 ">
+                <div className="relative z-10">
                   <Image
                     src={"/1201.png"}
                     alt=""
                     width={150}
                     height={150}
-                    className="m-auto"
+                    className="m-auto absolute md:top-2 lg:top-8 left-2/4 transform -translate-x-2/4"
                   ></Image>
                 </div>
               </div>
-              <div className="card text-center border text-white rounded-xl p-5 relative z-0 mt-20 md:mt-0">
+              <div className="card text-center border text-white rounded-xl py-20 px-5 relative z-0 mt-20 md:mt-0">
                 <h3 className="text-2xl my-3 font-bold">
                   Conseguimos el <br /> adelanto
                 </h3>
@@ -169,17 +170,17 @@ export default function Home() {
                   de los próximos 10 días.
                 </p>
                 <div className="space py-5"></div>
-                <div className="-mb-24 relative z-10 ">
+                <div className="relative z-10 ">
                   <Image
                     src={"/1202.png"}
                     alt=""
                     width={150}
                     height={150}
-                    className="m-auto"
+                    className="m-auto absolute top-2 left-2/4 transform -translate-x-2/4"
                   ></Image>
                 </div>
               </div>
-              <div className="card text-center border text-white rounded-xl p-5 relative z-0 mt-20 md:mt-0">
+              <div className="card text-center border text-white rounded-xl py-20 px-5 relative z-0 mt-20 md:mt-0">
                 <h3 className="text-2xl my-3 font-bold">Pagás la tarifa</h3>
                 <br />
                 <p className="texl-lg mt-10">
@@ -189,13 +190,13 @@ export default function Home() {
                   <br />
                 </p>
                 <div className="space py-5"></div>
-                <div className="-mb-24 relative z-10 ">
+                <div className="relative z-10 ">
                   <Image
                     src={"/1203.png"}
                     alt=""
                     width={150}
                     height={150}
-                    className="m-auto"
+                    className="m-auto absolute top-1 left-2/4 transform -translate-x-2/4"
                   ></Image>
                 </div>
               </div>
@@ -204,7 +205,7 @@ export default function Home() {
           <div className="space py-5"></div>
         </div>
       </section>
-      <section className="pt-10 md:pt-0 md:px-0 px-4 relative md:mt-24">
+      <section className="pt-10 md:pt-0 px-4 relative md:mt-48">
         <Image
           src={"/half-flag-left.png"}
           alt=""
@@ -216,7 +217,7 @@ export default function Home() {
           <h2 className="text-5xl font-bold text-center">
             Preguntas frecuentes
           </h2>
-          <div className="space py-5"></div>
+          <div className="space py-5 mt-10"></div>
           <div className="border-t border-black px-3 py-5">
             <h3 className="text-2xl font-bold">
               ¿Puedo cambiar el turno si el que elijo no me sirve?
@@ -290,7 +291,7 @@ export default function Home() {
           className="absolute bottom-0 right-0 hidden md:block"
         ></Image>
       </section>
-      <section className="py-24 md:py-0 md:px-0 px-4 relative">
+      <section className="py-24 md:py-0 px-4 relative">
         <div className="container mx-auto">
           <Image
             src={"/154510324ds4f.png"}
@@ -306,10 +307,11 @@ export default function Home() {
               width={849}
               height={235}
             ></Image>
-            <p className="text-lg mt-5 mb-14">
+            <p className="text-lg mt-5 mb-14 text-justify">
               Hay gente que sacó su turno hace un año y recién está yendo al
-              consulado hoy. ¿Por qué esperar tanto si podés adelantarlo por
-              solo 115 USD? Si realmente valorás tu tiempo, este es un negoción.
+              consulado hoy. ¿Por qué esperar <br /> tanto si podés adelantarlo
+              por solo 115 USD? Si realmente valorás tu tiempo, este es un
+              negoción.
             </p>
             <Link
               href="https://wa.me/5492216832241?text=Hola!"
@@ -320,12 +322,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-sdsi343i32 py-24 md:px-0 px-4">
+      <section className="bg-sdsi343i32 py-10  px-4">
         <div className="container mx-auto">
-          <h2 className="text-5xl font-bold text-center mt-10 text-white">
+          <h2 className="text-5xl font-bold text-center text-white">
             Testimonios
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mt-24">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 mt-24 py-20">
             <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 ">
               <div className="-mt-28 relative z-10 ">
                 <Image
@@ -435,8 +437,15 @@ export default function Home() {
           </h2>
         </div>
       </section>
-      <section className="bg-sdsajdiu34829 md:py-24 py-10">
-        <div className="container mx-auto md:px-0 px-4">
+      <section className="md:py-60 py-10">
+        <Image
+          src={"/sdsajdiu34829.png"}
+          width={1000}
+          height={600}
+          alt=""
+          className="absolute-img"
+        ></Image>
+        <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="flex flex-col justify-center items-start">
               <h2 className="text-5xl font-bold">
@@ -459,60 +468,66 @@ export default function Home() {
               alt=""
               width={519}
               height={519}
+              className="w-full"
             ></Image>
           </div>
         </div>
       </section>
-      <section className="bg-Group6498 py-24">
-        <div className="container mx-auto px-4 md:px-0">
+      <section className="bg-Group6498 py-24 px-4">
+        <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-white">
             ¿Tenés dudas? Contactános
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 mt-6 gap-5 md:gap-20">
             <div className="flex flex-col justify-center items-start ">
-              <div className="flex items-center py-5">
+              <div className="flex items-center md:py-5 lg:py-10">
                 <div className="ico">
                   <Image
                     src={"/Email.png"}
                     alt=""
                     width={100}
                     height={90}
-                    className="w-10 md:w-24"
+                    className="w-10 lg:w-24"
                   ></Image>
                 </div>
-                <div className="text-white ml-5 ">
+                <div className="text-white ml-10 ">
                   <h4 className="text-2xl font-bold">Email</h4>
                   <p className="text-xl mt-2">contacto@myfastvisa.com</p>
                 </div>
               </div>
-              <div className="flex items-center py-5 border-y w-full">
+              <div className="flex items-center md:py-5 lg:py-10 border-y w-full">
                 <div className="ico">
                   <Image
                     src={"/Call.png"}
                     alt=""
                     width={100}
                     height={90}
-                    className="w-10 md:w-24"
+                    className="w-10 lg:w-24"
                   ></Image>
                 </div>
-                <div className="text-white ml-5 ">
+                <div className="text-white ml-10 ">
                   <h4 className="text-2xl font-bold">WhatsApp</h4>
-                  <p className="text-xl mt-2">+54 9 221 683-2241</p>
+                  <Link
+                    href={"https://wa.me/5492216832241?text=Hola!"}
+                    className="text-xl mt-2"
+                  >
+                    +54 9 221 683-2241
+                  </Link>
                 </div>
               </div>
-              <div className="flex items-center py-5">
+              <div className="flex items-center md:py-5 lg:py-10">
                 <div className="ico">
                   <Image
                     src={"/Location.png"}
                     alt=""
                     width={100}
                     height={90}
-                    className="w-10 md:w-24"
+                    className="w-10 lg:w-24"
                   ></Image>
                 </div>
-                <div className="text-white ml-5 ">
+                <div className="text-white ml-10 ">
                   <h4 className="text-2xl font-bold">Oficina</h4>
-                  <p className="text-xl mt-2">
+                  <p className="text-xl lg:text-xl mt-2">
                     La Plata (oficina central) y Palermo.
                     <br />
                     La dirección se proporciona con cita previa.
@@ -520,7 +535,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="map">
+            <div className="map flex flex-col justify-center">
               <Image
                 src={"/map-image.png"}
                 alt=""

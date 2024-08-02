@@ -8,7 +8,7 @@ export default function AboutUs() {
     <>
       {" "}
       <section className="pt-10 md:pt-24 ">
-        <div className="md:px-0 px-4">
+        <div className="px-4">
           <h2 className="text-5xl font-bold text-center">
             Conocé nuestro equipo
           </h2>
@@ -18,14 +18,14 @@ export default function AboutUs() {
           </p>
         </div>
 
-        <div className="bg-Grou454f99 py-10 md:py-24 mt-10 md:px-0 px-4">
+        <div className="bg-Grou454f99 py-10 md:py-24 mt-10 px-4">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
-              <div className="flex flex-col justify-center items-start">
-                <div className="md:flex">
-                  <div className="text-block text-center md:w-2/4 px-12 flex flex-col justify-center text-white">
-                    <h4 className="text-4xl font-bold">Alejo</h4>
-                    <h5 className="text-4xl font-extralight mt-5">
+              <div className="flex flex-col xl:justify-center items-start">
+                <div className="lg:flex">
+                  <div className="text-block text-center lg:w-2/4 px-12 flex flex-col justify-center text-white">
+                    <h4 className="md:text-2xl lg:text-4xl font-bold">Alejo</h4>
+                    <h5 className="md:text-2xl xl:text-4xl font-extralight mt-5">
                       Fundador 🏢
                     </h5>
                     <p className="text-sm mt-5">
@@ -34,31 +34,33 @@ export default function AboutUs() {
                       números del negocio.
                     </p>
                   </div>
-                  <div className="image-block md:w-2/4 mt-4 md:mt-0">
+                  <div className="image-block lg:w-2/4 mt-4 md:mt-0">
                     <Image
                       src={"/alejo.png"}
                       alt=""
                       width={340}
                       height={442}
-                      className=" w-full"
+                      className=" w-full md:mt-3 lg:mt-0"
                     ></Image>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col justify-center items-start">
-                <div className="flex flex-col-reverse md:flex-row">
-                  <div className="image-block md:w-2/4 mt-4 md:mt-0">
+              <div className="flex flex-col xl:justify-center items-start">
+                <div className="flex flex-col-reverse lg:flex-row">
+                  <div className="image-block lg:w-2/4 mt-4 md:mt-0">
                     <Image
                       src={"/Caterina.png"}
                       alt=""
                       width={340}
                       height={442}
-                      className=" w-full"
+                      className=" w-full md:mt-3 lg:mt-0"
                     ></Image>
                   </div>
-                  <div className="text-block text-center md:w-2/4 px-12 flex flex-col justify-center text-white">
-                    <h4 className="text-4xl font-bold">Caterina</h4>
-                    <h5 className="text-4xl font-extralight mt-5">
+                  <div className="text-block text-center lg:w-2/4 px-12 flex flex-col justify-center text-white">
+                    <h4 className="md:text-2xl lg:text-4xl font-bold">
+                      Caterina
+                    </h4>
+                    <h5 className="md:text-2xl xl:text-4xl font-extralight mt-5">
                       Fundador 🏢
                     </h5>
                     <p className="text-sm mt-5">
@@ -69,11 +71,13 @@ export default function AboutUs() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col justify-center items-start">
-                <div className="md:flex">
-                  <div className="text-block text-center md:w-2/4 px-12 flex flex-col justify-center text-white">
-                    <h4 className="text-4xl font-bold">Delfina</h4>
-                    <h5 className="text-4xl font-extralight mt-5">
+              <div className="flex flex-col xl:justify-center items-start">
+                <div className="lg:flex">
+                  <div className="text-block text-center lg:w-2/4 px-12 flex flex-col justify-center text-white">
+                    <h4 className="md:text-2xl lg:text-4xl font-bold">
+                      Delfina
+                    </h4>
+                    <h5 className="md:text-2xl xl:text-4xl font-extralight mt-5">
                       Asistente <br /> Administrativa 📝
                     </h5>
                     <p className="text-sm mt-5">
@@ -82,31 +86,33 @@ export default function AboutUs() {
                       hayas visto jamás.
                     </p>
                   </div>
-                  <div className="image-block md:w-2/4 mt-4 md:mt-0">
+                  <div className="image-block lg:w-2/4 mt-4 md:mt-0">
                     <Image
                       src={"/Delfina.png"}
                       alt=""
                       width={340}
                       height={442}
-                      className=" w-full"
+                      className=" w-full md:mt-3 lg:mt-0"
                     ></Image>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col justify-center items-start">
-                <div className="flex flex-col-reverse md:flex-row">
-                  <div className="image-block md:w-2/4 mt-4 md:mt-0">
+              <div className="flex flex-col xl:justify-center items-start">
+                <div className="flex flex-col-reverse lg:flex-row">
+                  <div className="image-block lg:w-2/4 mt-4 md:mt-0">
                     <Image
                       src={"/Ramiro.png"}
                       alt=""
                       width={340}
                       height={442}
-                      className=" w-full"
+                      className=" w-full md:mt-3 lg:mt-0"
                     ></Image>
                   </div>
-                  <div className="text-block text-center md:w-2/4 px-12 flex flex-col justify-center text-white">
-                    <h4 className="text-4xl font-bold">Ramiro</h4>
-                    <h5 className="text-4xl font-extralight mt-5">
+                  <div className="text-block text-center lg:w-2/4 px-12 flex flex-col justify-center text-white">
+                    <h4 className="md:text-2xl lg:text-4xl font-bold">
+                      Ramiro
+                    </h4>
+                    <h5 className="md:text-2xl xl:text-4xl font-extralight mt-5">
                       Especialista en Trámites Consulares 📅
                     </h5>
                     <p className="text-sm mt-5">
@@ -127,12 +133,12 @@ export default function AboutUs() {
           <Timeline />
         </div>
       </section>
-      <section className="bg-sdsi343i32 py-24 md:px-0 px-4">
+      <section className="bg-sdsi343i32 py-10  px-4">
         <div className="container mx-auto">
-          <h2 className="text-5xl font-bold text-center mt-10 text-white">
+          <h2 className="text-5xl font-bold text-center text-white">
             Testimonios
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mt-24">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-10 mt-24 py-20">
             <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 ">
               <div className="-mt-28 relative z-10 ">
                 <Image
@@ -165,7 +171,7 @@ export default function AboutUs() {
               </p>
               <div className="space py-5"></div>
             </div>
-            <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 mt-10 md:mt-0">
+            <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 mt-16 md:mt-0">
               <div className="-mt-32 relative z-10 ">
                 <Image
                   src={"/testi-2.png"}
@@ -201,7 +207,7 @@ export default function AboutUs() {
               </p>
               <div className="space py-5"></div>
             </div>
-            <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 mt-10 md:mt-0">
+            <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 mt-16 md:mt-0">
               <div className="-mt-32 relative z-10 ">
                 <Image
                   src={"/testi-3.png"}
@@ -242,8 +248,15 @@ export default function AboutUs() {
           </h2>
         </div>
       </section>
-      <section className="bg-sdsajdiu34829 md:py-24 py-10">
-        <div className="container mx-auto md:px-0 px-4">
+      <section className="md:py-60 py-10">
+        <Image
+          src={"/sdsajdiu34829.png"}
+          width={1000}
+          height={600}
+          alt=""
+          className="absolute-img"
+        ></Image>
+        <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="flex flex-col justify-center items-start">
               <h2 className="text-5xl font-bold">
@@ -266,6 +279,7 @@ export default function AboutUs() {
               alt=""
               width={519}
               height={519}
+              className="w-full"
             ></Image>
           </div>
         </div>

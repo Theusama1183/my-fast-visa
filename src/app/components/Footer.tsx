@@ -4,20 +4,21 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="footer py-5 border-t-2 border-black">
-      <div className="container mx-auto px-4 md:px-4">
+    <footer className="footer pb-0 pt-5 md:py-5 border-t-2 border-black">
+      <div className="md:px-14">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:flex items-center justify-between">
           <div className="logo">
             <Link href="/">
               <Image
                 src={"/main-logo.png"}
                 alt=""
-                width={200}
+                width={100}
                 height={70}
+                className="md:mx-none mx-auto"
               ></Image>
             </Link>
           </div>
-          <div className="menus">
+          <div className="menus mt-4 md:mt-0">
             <ul className="text-center text-xl">
               <li>
                 <Link href="/">Inicio</Link>
@@ -30,8 +31,8 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="copywrite">
-            <p className="text-right mb-0 text-sm">
+          <div className="copywrite mt-4 md:mt-0 bg-primary text-white py-2">
+            <p className="text-center md:text-right mb-0 text-sm">
               © 2024 MyFastVisa. Todos los derechos reservados.
             </p>
           </div>

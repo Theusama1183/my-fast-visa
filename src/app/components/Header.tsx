@@ -8,8 +8,8 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-white ">
-      <div className="container mx-auto md:px-0 px-4 ">
+    <header className="bg-white py-5">
+      <div className=" px-4 md:px-14">
         <div className="flex justify-between h-16">
           <div className="-mr-2 flex md:hidden">
             <button
@@ -59,7 +59,7 @@ const Header = () => {
               <Image
                 src="/main-logo.png"
                 alt="Logo"
-                width={160}
+                width={100}
                 height={90}
               ></Image>
             </Link>

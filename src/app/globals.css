@@ -32,8 +32,15 @@
 }
 
 .flag-img {
-  top: 13%;
+  top: 17%;
   right: 0;
+}
+@media screen and (max-width: 1023px) {
+  .flag-img {
+    top: 50%;
+    right: 0;
+    width: 550px;
+  }
 }
 .web-list {
   list-style: none;
@@ -71,12 +78,12 @@
 .bg-sdsi343i32 {
   background-image: url("/sdsi343i32.png");
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 .bg-sdsajdiu34829 {
   background-image: url("/sdsajdiu34829.png");
-  background-size: 40%;
+  background-size: 70%;
   background-position: left center;
   background-repeat: no-repeat;
 }
@@ -183,14 +190,16 @@
   position: relative;
   border-radius: 6px;
 }
-
+.timeline-wrapper.right {
+  margin-top: 50px;
+}
 @media screen and (max-width: 600px) {
   .content {
     padding: 0px 0px;
   }
   .timeline-wrapper {
     width: 100%;
-    padding-right: 50px;
+    padding-right: 10px;
     padding-left: 0px;
   }
 
@@ -207,7 +216,7 @@
 
   .left::after,
   .right::after {
-    right: 0px;
+    right: -15px;
     width: 25px;
     height: 25px;
   }
@@ -215,15 +224,33 @@
 
 @media screen and (max-width: 600px) {
   .timeline::after {
-    right: 10px;
+    right: -6px;
     left: auto;
   }
   .right::after {
-    right: 0 !important;
+    right: -15px !important;
     left: auto;
   }
   .timeline .content {
     text-align: end;
     margin-top: 60px;
+  }
+  .ico {
+    width: 100px;
+  }
+  .ico img {
+    width: 50px;
+    display: block;
+    object-fit: none;
+  }
+}
+.absolute-img {
+  position: absolute;
+  left: 0;
+  transform: translateY(-28%);
+}
+@media screen and (max-width: 1023px) {
+  img.absolute-img {
+    width: 60%;
   }
 }

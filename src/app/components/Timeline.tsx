@@ -44,7 +44,7 @@ export default function Timeline() {
           ></Image>
         </div>
       </div>
-      <div className="timeline-wrapper left">
+      <div className="timeline-wrapper left md:mt-12">
         <div className="content md:text-right">
           <h2 className="text-3xl md:text-4xl font-bold">
             Reducción de Tiempos de Espera (2024)

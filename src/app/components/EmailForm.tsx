@@ -1,11 +1,13 @@
 "use client";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { useRouter } from "next/navigation";
 
 export default function EmailForm() {
   const form = useRef<HTMLFormElement>(null);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
+  const router = useRouter();
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -22,6 +24,9 @@ export default function EmailForm() {
           () => {
             setSuccess("Email successfully sent!");
             setError(null);
+            // setTimeout(() => {
+            //   router.push("https://wa.me/5492216832241?text=Hola!");
+            // }, 2000);
           },
           (error) => {
             console.log("FAILED...", error.text);
