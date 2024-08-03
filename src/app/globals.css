@@ -253,4 +253,7 @@
   img.absolute-img {
     width: 60%;
   }
+  .ico.w-1\/12 {
+    margin-right: 11px;
+  }
 }

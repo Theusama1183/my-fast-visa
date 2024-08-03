@@ -49,9 +49,11 @@ export default function ContactUs() {
                     height={90}
                   ></Image>
                 </div>
-                <div className="text-white  w-11/12">
-                  <h4 className="text-2xl font-bold">Email</h4>
-                  <p className="text-xl mt-2">contacto@myfastvisa.com</p>
+                <div className="text-white w-11/12">
+                  <h4 className="text-xl lg:text-2xl font-bold">Email</h4>
+                  <p className="text-base lg:text-xl lg:mt-2">
+                    contacto@myfastvisa.com
+                  </p>
                 </div>
               </div>
               <div className="flex items-center py-5 lg:py-10 border-y w-full">
@@ -63,11 +65,11 @@ export default function ContactUs() {
                     height={90}
                   ></Image>
                 </div>
-                <div className="text-white  w-11/12">
-                  <h4 className="text-2xl font-bold">WhatsApp</h4>
+                <div className="text-white w-11/12">
+                  <h4 className="text-xl lg:text-2xl font-bold">WhatsApp</h4>
                   <Link
                     href={"https://wa.me/5492216832241?text=Hola!"}
-                    className="text-xl mt-2"
+                    className="text-base lg:text-xl lg:mt-2"
                   >
                     +54 9 221 683-2241
                   </Link>
@@ -83,8 +85,8 @@ export default function ContactUs() {
                   ></Image>
                 </div>
                 <div className="text-white w-11/12">
-                  <h4 className="text-2xl font-bold">Oficina</h4>
-                  <p className="text-xl lg:text-xl mt-2">
+                  <h4 className="text-xl lg:text-2xl font-bold">Oficina</h4>
+                  <p className="text-base lg:text-xl lg:mt-2">
                     La Plata (oficina central) y Palermo.
                     <br />
                     La dirección se proporciona con cita previa.

@@ -31,7 +31,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="copywrite mt-4 md:mt-0 bg-primary text-white py-2">
+          <div className="copywrite mt-4 md:mt-0 bg-primary sm:bg-transparent text-white sm:text-black py-2">
             <p className="text-center md:text-right mb-0 text-sm">
               © 2024 MyFastVisa. Todos los derechos reservados.
             </p>

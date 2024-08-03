@@ -124,12 +124,14 @@ export default function Home() {
               <li>100% Online</li>
             </ul>
             <div className="space py-8"></div>
-            <Link
-              href={"https://wa.me/5492216832241?text=Hola!"}
-              className="mt-9 px-10 py-3 bg-primary text-white rounded-xl border hover:bg-black hover:text-white absolute -bottom-5 left-50% transform translate-x-1/2 md:ml-2 -ml-10"
-            >
-              Adelantá ya
-            </Link>
+            <div className="flex justify-center">
+              <Link
+                href={"https://wa.me/5492216832241?text=Hola!"}
+                className="mt-9 px-10 py-3 bg-primary text-white rounded-xl border hover:bg-black hover:text-white absolute -bottom-5 "
+              >
+                Adelantá ya
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -360,7 +362,7 @@ export default function Home() {
               </p>
               <div className="space py-5"></div>
             </div>
-            <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 mt-10 md:mt-0">
+            <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 mt-16 md:mt-0">
               <div className="-mt-32 relative z-10 ">
                 <Image
                   src={"/testi-2.png"}
@@ -396,7 +398,7 @@ export default function Home() {
               </p>
               <div className="space py-5"></div>
             </div>
-            <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 mt-10 md:mt-0">
+            <div className="card text-center bg-primary border text-white rounded-xl p-5 relative z-0 mt-16 md:mt-0">
               <div className="-mt-32 relative z-10 ">
                 <Image
                   src={"/testi-3.png"}
@@ -489,9 +491,11 @@ export default function Home() {
                     height={90}
                   ></Image>
                 </div>
-                <div className="text-white  w-11/12">
-                  <h4 className="text-2xl font-bold">Email</h4>
-                  <p className="text-xl mt-2">contacto@myfastvisa.com</p>
+                <div className="text-white w-11/12">
+                  <h4 className="text-xl lg:text-2xl font-bold">Email</h4>
+                  <p className="text-base lg:text-xl lg:mt-2">
+                    contacto@myfastvisa.com
+                  </p>
                 </div>
               </div>
               <div className="flex items-center py-5 lg:py-10 border-y w-full">
@@ -503,11 +507,11 @@ export default function Home() {
                     height={90}
                   ></Image>
                 </div>
-                <div className="text-white  w-11/12">
-                  <h4 className="text-2xl font-bold">WhatsApp</h4>
+                <div className="text-white w-11/12">
+                  <h4 className="text-xl lg:text-2xl font-bold">WhatsApp</h4>
                   <Link
                     href={"https://wa.me/5492216832241?text=Hola!"}
-                    className="text-xl mt-2"
+                    className="text-base lg:text-xl lg:mt-2"
                   >
                     +54 9 221 683-2241
                   </Link>
@@ -523,8 +527,8 @@ export default function Home() {
                   ></Image>
                 </div>
                 <div className="text-white w-11/12">
-                  <h4 className="text-2xl font-bold">Oficina</h4>
-                  <p className="text-xl lg:text-xl mt-2">
+                  <h4 className="text-xl lg:text-2xl font-bold">Oficina</h4>
+                  <p className="text-base lg:text-xl lg:mt-2">
                     La Plata (oficina central) y Palermo.
                     <br />
                     La dirección se proporciona con cita previa.
