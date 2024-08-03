@@ -64,7 +64,7 @@ const Header = () => {
               ></Image>
             </Link>
           </div>
-          <div className="hidden md:flex md:items-center md:space-x-4">
+          <div className="hidden md:flex md:items-center md:space-x-10">
             <Link href="/" className="text-black hover:text-gray-700 text-xl">
               Inicio
             </Link>

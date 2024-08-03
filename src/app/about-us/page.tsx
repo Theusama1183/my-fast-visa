@@ -23,9 +23,9 @@ export default function AboutUs() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
               <div className="flex flex-col xl:justify-center items-start">
                 <div className="lg:flex">
-                  <div className="text-block text-center lg:w-2/4 px-12 flex flex-col justify-center text-white">
-                    <h4 className="md:text-2xl lg:text-4xl font-bold">Alejo</h4>
-                    <h5 className="md:text-2xl xl:text-4xl font-extralight mt-5">
+                  <div className="text-block text-center lg:w-2/4 px-3 flex flex-col justify-center text-white">
+                    <h4 className="text-2xl lg:text-4xl font-bold">Alejo</h4>
+                    <h5 className="text-2xl xl:text-4xl font-extralight mt-5">
                       Fundador 🏢
                     </h5>
                     <p className="text-sm mt-5">
@@ -56,29 +56,24 @@ export default function AboutUs() {
                       className=" w-full md:mt-3 lg:mt-0"
                     ></Image>
                   </div>
-                  <div className="text-block text-center lg:w-2/4 px-12 flex flex-col justify-center text-white">
-                    <h4 className="md:text-2xl lg:text-4xl font-bold">
-                      Caterina
-                    </h4>
-                    <h5 className="md:text-2xl xl:text-4xl font-extralight mt-5">
-                      Fundador 🏢
+                  <div className="text-block text-center lg:w-2/4 px-3 flex flex-col justify-center text-white">
+                    <h4 className="text-2xl lg:text-4xl font-bold">Caterina</h4>
+                    <h5 className="text-2xl xl:text-4xl font-extralight mt-5">
+                      Atención al Cliente 📲
                     </h5>
                     <p className="text-sm mt-5">
-                      Encargado de la estrategia y la gestión general. Lo vas a
-                      encontrar siempre con un mate en la mano analizando los
-                      números del negocio.
+                      Fanática de los stickers y siempre tiene uno listo para
+                      alegrar el día.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="flex flex-col xl:justify-center items-start">
                 <div className="lg:flex">
-                  <div className="text-block text-center lg:w-2/4 px-12 flex flex-col justify-center text-white">
-                    <h4 className="md:text-2xl lg:text-4xl font-bold">
-                      Delfina
-                    </h4>
-                    <h5 className="md:text-2xl xl:text-4xl font-extralight mt-5">
-                      Asistente <br /> Administrativa 📝
+                  <div className="text-block text-center lg:w-2/4 px-3 flex flex-col justify-center text-white">
+                    <h4 className="text-2xl lg:text-4xl font-bold">Delfina</h4>
+                    <h5 className="text-2xl xl:text-4xl font-extralight mt-5">
+                      Asistente Administrativa 📝
                     </h5>
                     <p className="text-sm mt-5">
                       Se encarga de gestionar los pagos. Nunca la vas a
@@ -108,11 +103,9 @@ export default function AboutUs() {
                       className=" w-full md:mt-3 lg:mt-0"
                     ></Image>
                   </div>
-                  <div className="text-block text-center lg:w-2/4 px-12 flex flex-col justify-center text-white">
-                    <h4 className="md:text-2xl lg:text-4xl font-bold">
-                      Ramiro
-                    </h4>
-                    <h5 className="md:text-2xl xl:text-4xl font-extralight mt-5">
+                  <div className="text-block text-center lg:w-2/4 px-3 flex flex-col justify-center text-white">
+                    <h4 className="text-2xl lg:text-4xl font-bold">Ramiro</h4>
+                    <h5 className="text-2xl xl:text-4xl font-extralight mt-5">
                       Especialista en Trámites Consulares 📅
                     </h5>
                     <p className="text-sm mt-5">
@@ -269,7 +262,7 @@ export default function AboutUs() {
               </p>
               <Link
                 href="https://wa.me/5492216832241?text=Hola!"
-                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-6"
+                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-6 relative z-50 hover-icon"
               >
                 Adelantá ya
               </Link>

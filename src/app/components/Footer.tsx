@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="footer pb-0 pt-5 md:py-5 border-t-2 border-black">
+    <footer className="footer pb-0 pt-5 border-t-2 border-black">
       <div className="md:px-14">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:flex items-center justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:flex items-center justify-between py-3">
           <div className="logo">
             <Link href="/">
               <Image
@@ -31,12 +31,12 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="copywrite mt-4 md:mt-0 bg-primary sm:bg-transparent text-white sm:text-black py-2">
-            <p className="text-center md:text-right mb-0 text-sm">
-              © 2024 MyFastVisa. Todos los derechos reservados.
-            </p>
-          </div>
         </div>
+      </div>
+      <div className="copywrite mt-4 md:mt-0 bg-primary text-white py-2">
+        <p className="text-center mb-0 text-sm">
+          © 2024 MyFastVisa. Todos los derechos reservados.
+        </p>
       </div>
     </footer>
   );

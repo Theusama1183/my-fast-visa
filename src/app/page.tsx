@@ -12,14 +12,14 @@ export default function Home() {
               Adelantá el turno de tu visa <br className="hidden lg:block" /> a
               los proximos{" "}
               <span className="bg-primary px-3 py-1 text-white rounded-lg">
-                10 DIAS!
+                10 DÍAS!
               </span>
             </h1>
-            <p className="text-lg mt-6 md:w-4/5 ">
+            <p className="text-lg mt-6 lg:w-4/5 ">
               La Embajada de EE.UU. en Argentina recién está dando turnos para
               noviembre. ¿Para qué esperar? Con MyFastVisa, conseguís un turno
-              para la próxima semana, online, rápido y garantizado. No pierdas
-              tiempo, hacelo ya!
+              para la próxima <br /> semana, online, rápido y garantizado. No
+              pierdas tiempo, hacelo ya!
             </p>
             <div className="space px-5">
               <br />
@@ -35,7 +35,7 @@ export default function Home() {
             <div className="md:hidden md:items-center">
               <Link
                 href="https://wa.me/5492216832241?text=Hola!"
-                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-5 "
+                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-5 hover-icon"
               >
                 Adelantá ya
               </Link>
@@ -127,7 +127,7 @@ export default function Home() {
             <div className="flex justify-center">
               <Link
                 href={"https://wa.me/5492216832241?text=Hola!"}
-                className="mt-9 px-10 py-3 bg-primary text-white rounded-xl border hover:bg-black hover:text-white absolute -bottom-5 "
+                className="mt-9 px-10 py-3 bg-primary text-white rounded-xl border hover:bg-black hover:text-white absolute -bottom-5 hover-icon"
               >
                 Adelantá ya
               </Link>
@@ -167,8 +167,8 @@ export default function Home() {
                   Conseguimos el <br /> adelanto
                 </h3>
                 <p className="texl-lg mt-10">
-                  Generalmente, en 2 a 3 días conseguimos un turno <br /> para
-                  el CAS y la Embajada dentro <br />
+                  Generalmente, en 2 a 3 días conseguimos un turno para el CAS y
+                  la Embajada dentro <br />
                   de los próximos 10 días.
                 </p>
                 <div className="space py-5"></div>
@@ -178,7 +178,7 @@ export default function Home() {
                     alt=""
                     width={150}
                     height={150}
-                    className="m-auto absolute top-2 left-2/4 transform -translate-x-2/4"
+                    className="m-auto absolute top-2 md:top-8 left-2/4 transform -translate-x-2/4"
                   ></Image>
                 </div>
               </div>
@@ -263,7 +263,7 @@ export default function Home() {
           <div className="border-t border-black px-3 py-5">
             <h3 className="text-2xl font-bold">¿Cómo los contacto?</h3>
             <p className="text-2xl mt-3">
-              Podés escribirnos a nuestro WhatsApp +5492395400101 y te guiaremos
+              Podés escribirnos a nuestro WhatsApp +5492216832241 y te guiaremos
               en los próximos pasos.
             </p>
           </div>
@@ -311,13 +311,12 @@ export default function Home() {
             ></Image>
             <p className="text-lg mt-5 mb-14 text-justify">
               Hay gente que sacó su turno hace un año y recién está yendo al
-              consulado hoy. ¿Por qué esperar <br /> tanto si podés adelantarlo
-              por solo 115 USD? Si realmente valorás tu tiempo, este es un
-              negoción.
+              consulado hoy. ¿Por qué esperar tanto si podés adelantarlo por
+              solo 115 USD? Si realmente valorás tu tiempo, este es un negoción.
             </p>
             <Link
               href="https://wa.me/5492216832241?text=Hola!"
-              className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white"
+              className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white hover-icon"
             >
               Adelantá ya
             </Link>
@@ -454,13 +453,12 @@ export default function Home() {
                 Asegurá tu turno para la <br /> próxima semana
               </h2>
               <p className="text-lg mt-5">
-                No esperes de más. Sacate un peso de{" "}
-                <br className="md:block hidden" /> encima adelantando el turno
+                No esperes de más. Sacate un peso de encima adelantando el turno
                 ahora.
               </p>
               <Link
                 href="https://wa.me/5492216832241?text=Hola!"
-                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-6"
+                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white mt-6 relative z-50 hover-icon"
               >
                 Adelantá ya
               </Link>
@@ -487,7 +485,7 @@ export default function Home() {
                   <Image
                     src={"/Email.png"}
                     alt=""
-                    width={100}
+                    width={200}
                     height={90}
                   ></Image>
                 </div>

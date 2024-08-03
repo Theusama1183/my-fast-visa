@@ -22,15 +22,15 @@ export default function EmailForm() {
         )
         .then(
           () => {
-            setSuccess("Email successfully sent!");
+            setSuccess("Mensaje enviado.");
             setError(null);
-            // setTimeout(() => {
-            //   router.push("https://wa.me/5492216832241?text=Hola!");
-            // }, 2000);
+            form.current?.reset();
           },
           (error) => {
             console.log("FAILED...", error.text);
-            setError("Failed to send email. Please try again.");
+            setError(
+              "No se pudo enviar el correo electrónico. Inténtalo de nuevo."
+            );
             setSuccess(null);
           }
         );

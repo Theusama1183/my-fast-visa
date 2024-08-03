@@ -12,8 +12,9 @@ export default function ContactUs() {
             Dejanos tu mensaje!
           </h2>
           <p className="text-2xl text-center mt-5">
-            Podes rellenar el siguiente formulario o ver más formas de <br />{" "}
-            contacto abajo. Te responderemos en 30 minutos.
+            Podes rellenar el siguiente formulario o ver más formas de{" "}
+            <br className="hidden md:block" /> contacto abajo. Te responderemos
+            en 30 minutos.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 mt-6 gap-5 md:gap-20 mt-10">
             <div className="flex flex-col justify-center items-start">
@@ -27,7 +28,7 @@ export default function ContactUs() {
                 alt=""
                 width={400}
                 height={400}
-                className="w-full"
+                className="w-full hidden md:block"
               ></Image>
             </div>
           </div>
@@ -45,7 +46,7 @@ export default function ContactUs() {
                   <Image
                     src={"/Email.png"}
                     alt=""
-                    width={100}
+                    width={200}
                     height={90}
                   ></Image>
                 </div>

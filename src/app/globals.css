@@ -154,7 +154,7 @@
   left: 50%;
 }
 
-.left::before {
+/* .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -165,7 +165,7 @@
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
-}
+} */
 
 .right::before {
   content: " ";
@@ -241,7 +241,7 @@
   .ico img {
     width: 50px;
     display: block;
-    object-fit: none;
+    object-fit: scale-down;
   }
 }
 .absolute-img {
@@ -253,7 +253,22 @@
   img.absolute-img {
     width: 60%;
   }
-  .ico.w-1\/12 {
-    margin-right: 11px;
-  }
+}
+.ico.w-1\/12 {
+  margin-right: 11px;
+}
+.hover-icon {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.hover-icon:hover::after {
+  content: "";
+  margin-left: 10px;
+  width: 20px;
+  height: 20px; /* Set the height to match the width */
+  display: block;
+  background-image: url("/whatsapp-icon.png");
+  background-size: contain; /* Ensure the SVG scales correctly */
+  background-repeat: no-repeat; /* Prevent tiling */
 }
